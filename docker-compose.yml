@@ -8,5 +8,3 @@ services:
       - "8080:8080" # El puerto que usa tu API
     env_file:
       - .env
-    depends_on:
-      - db  # Esto asegura que la DB arranque antes que la App
